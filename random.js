@@ -97,6 +97,22 @@ makeCircle(3,47,.1,"white",1)
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
+makeCircle(25,25,10,"dimgray",1)
+makeRect(15,25,10,0.25,"black",0.5)
+makeRect(25,25,10,0.25,"black",0.5)
+makeCircle(32,16.6,8,"black")
+makeCircle(32,34.6,8,"black")
+makeRect(20,17,10,0.25,"dimgray")
+makeRect(19,19,10,0.25,"dimgray")
+makeRect(20,22,10,0.25,"dimgray")
+makeRect(20,20,10,0.25,"dimgray")
+makeRect(20,23,10,0.25,"dimgray")
+makeRect(20,17,10,0.25,"dimgray")
+makeRect(19,17.6,10,0.25,"dimgray")
+makeRect(17,24,10,0.25,"dimgray")
+makeRect(20,17,10,0.25,"dimgray")
+makeEllipse(20,20,2.5,2.5,"gray",1)
+
     
 //THE STARS//
 makeCircle(1,1,.1,"white",1)
@@ -183,6 +199,38 @@ makeCircle(3,47,.1,"white",1)
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
+//THE DEATHSTAR//
+makeCircle(25,25,10,"dimgray",1)
+makeRect(15,25,10,0.25,"black",0.5)
+makeRect(25,25,10,0.25,"black",0.5)
+makeCircle(32,16.6,8,"black")
+makeCircle(32,34.6,8,"black")
+makeRect(21,16,10,0.25,"dimgray")
+makeRect(19,20,10,5,"dimgray")
+makeRect(18,17.9,10,5,"dimgray")
+makeRect(20,17,10,0.25,"dimgray")
+makeRect(19,19,10,0.25,"dimgray")
+makeRect(20,22,10,0.25,"dimgray")
+makeRect(21.5,20,10,0.25,"dimgray")
+makeRect(20,23,10,0.25,"dimgray")
+makeRect(20,17,10,0.25,"dimgray")
+makeRect(19,17.6,10,0.25,"dimgray")
+makeRect(17,24,10,0.25,"dimgray")
+makeRect(22,17,10,0.25,"dimgray")
+makeRect(20,19,10,0.25,"dimgray")
+makeRect(25,23,10,0.25,"dimgray")
+makeRect(20,17,10,0.25,"dimgray")
+makeRect(20,17,10,0.25,"dimgray")
+makeRect(20,17,10,0.25,"dimgray")
+makeEllipse(20,20,2.5,2.5,"gray",1)
+makeRect(21.2,34,10,0.25,"dimgray")
+makeRect(20,28,10,0.25,"dimgray")
+makeRect(23,30,10,0.25,"dimgray")
+makeRect(21.5,31,10,0.25,"dimgray")
+makeRect(20,32.5,10,0.25,"dimgray")
+makeRect(24,25.4,5,5,"dimgray")
+makeRect(22,29.5,5,5,"dimgray")
+
 //THE STARS//
 makeCircle(1,1,.1,"white",1)
 makeCircle(3,12,.1,"white",1)
@@ -287,7 +335,7 @@ function createRandomScene() {
   
     // Else, call the function to create your third scene.
         
-
+}
 // DO NOT EDIT ANYTHING BELOW THIS LINE!
 // These are the functions you should call to
 // easily create shapes in JavaScript. Feel free
@@ -401,5 +449,4 @@ function makeImage(url, x, y, width, height, opacity) {
   var canvas = document.getElementById("canvas")
   canvas.appendChild(image)
   return image
-}
 }
