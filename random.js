@@ -90,6 +90,10 @@ makeCircle(42,23,.1,"white",1)
 makeCircle(40,21,.1,"white",1)
 makeCircle(35,12,.1,"white",1)
 makeCircle(3,47,.1,"white",1)
+var myNumber = Math.random()
+if(myNumber<0.5){
+makeCircle(8,42,5,"red",1)
+}
 }
 
 
@@ -97,6 +101,7 @@ makeCircle(3,47,.1,"white",1)
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
+//THE DEATHSTAR//
 makeCircle(25,25,10,"dimgray",1)
 makeRect(15,25,10,0.25,"black",0.5)
 makeRect(25,25,10,0.25,"black",0.5)
@@ -191,8 +196,12 @@ makeCircle(42,23,.1,"white",1)
 makeCircle(40,21,.1,"white",1)
 makeCircle(35,12,.1,"white",1)
 makeCircle(3,47,.1,"white",1)
-    
+var myNumber = Math.random()
+if(myNumber<0.5){
+makeCircle(8,7,5,"brown",1)
 }
+}
+    
 
 
 // Fill in this function so that it draws something using SVG shapes!
@@ -305,10 +314,13 @@ makeCircle(17,46,.1,"white",1)
 makeCircle(46,32,.1,"white",1)
 makeCircle(47,42,.1,"white",1)
 makeCircle(42,23,.1,"white",1)
-makeCircle(40,21,.1,"white",1)
+makeCircle(44,21,.1,"white",1)
 makeCircle(35,12,.1,"white",1)
 makeCircle(3,47,.1,"white",1)
-
+var myNumber = Math.random()
+if(myNumber<0.5){
+makeCircle(46,9,4,"white",1)
+}
 }
 
 
